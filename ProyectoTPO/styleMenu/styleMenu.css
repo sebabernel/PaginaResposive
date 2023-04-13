@@ -1,0 +1,29 @@
+.carrusel {
+  position: relative;
+}
+
+.carrusel img {
+  display: none;
+  max-width: 100%;
+  height: max-content;
+  width: auto;
+}
+
+.carrusel img.imagen-activa {
+  display: block;
+  height: max-content;
+}
+
+.carrusel .control-anterior,
+.carrusel .control-siguiente {
+  position: absolute;
+  top: calc(50% - 20px);
+}
+
+.carrusel .control-anterior {
+  left: 10px;
+}
+
+.carrusel .control-siguiente {
+  right: 10px;
+}
